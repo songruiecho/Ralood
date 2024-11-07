@@ -7,10 +7,7 @@ from generater import *
 def chat(prompt):
     url = "https://api.xi-ai.cn/v1/chat/completions"
     api_key = [
-        'sk-xvu9m3Oxwo9RSt167718D2D1Fb464902BdF138C1F388C749',
-        'sk-HMjMaMLCYxpscmYoC3019dFe884149B6977066562bA5Cd4b',
-        'sk-9UOnq9q2aseQrOldBb0aFdBb3b7342A89881587c0e54B9A8',
-        'sk-4vlbSD6DlZFYjMtXE1A3772f35A440769a2761B72b42395f'
+        'your own key list'
     ]
     random_key = random.choice(api_key)
     payload = json.dumps({
